@@ -1,0 +1,34 @@
+//Personel adında bir class oluşturalım
+    //Kişinin adı, soyadı, email, dogum yılı bilgisi alınsın.Private olara tanımlansın
+    //Email kontrolü yapılsın. Eğer içinde @ işareti yoksa “Geçersiz Mail” olarak kayıt yapılsın.
+    //getYas() adında bir metot olsun. Kullanıcının yaş bilgisini döndürsün. (2023’den çıkartarak)
+    //Kaç kullanıcı eklendiği bilgisi alınabilsin.(static)
+    //Ad ile Soyad bilgisi oluşturulan bir fonksiyonla alınabilsin.(ad ve soyad
+//method ile constructor arasındaki farklar
+
+        //1-constructor ismi içinde bulunduğu class ismi ile aynı olmalı
+        //1-method da istediğiniz herhangi bir ismi verebilirsiniz
+        //2-constructor herhangi bir type(return) sahip değildir
+        //2-method ise istenilen(String, Void, Array vb) type döner
+        //4-constructor lar alt Class lar tarafında miras alınamazlar
+        //4-methodlar ise tipi private değilse alınabilirler
+        //5-constructor u doğrudan çağırmak için this ve super kelimeleri kullanılır
+        //5-methodlar da ise böyle bir şey yok
+ S1- Abstract classları ve methodları neden kullanırız ?
+  C- abstract class oluşturduğumuz sınıfların ortak özelliklerini bir arada toplamak için kullanılır.
+   - Bu yüzden abstrac classlardan nesne oluşturulamaz
+   - Abstract (Soyut) sınıfların kullanımındaki amaç, nesne türetilirken şablon oluşturmak
+
+S2-Abstract classların çalışma mantığı nedir ?
+  - abstract class da ortak özelliklere sahip methodun imzasını (badisiz) olustrulur (abstract keyword ile)
+    oluşturulan abstract metodun nasıl kullanılacağı miras alınan classsa bırakılır,
+
+S3-Abstract classların normal kılaslardan farkı nedir?
+    C-1-abstract classlar 'abstract'keyword ile ifade edilirler
+    2-kendi türlerinden obje oluşturulamazlar
+    3-Abstract classlar abstract methodlar içerebilir(şart değil)
+    ve extend edilen class tarafından kullanımı zorunludur
+   - abstract methodlar badisiz oluşturulur ve extend (inheritance) edilen class tarafından
+    badysi oluşturulur
+
+   Not:Abstract Class ve Metot kullanımı programlarımızda hız açısından avantaj sağlar.

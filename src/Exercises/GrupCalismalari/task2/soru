@@ -1,0 +1,8 @@
+1- Hesaplamalar adında bir class oluşturalım
+        Variables : deger1, değer2, pi sayısı ;
+        methods : AlanHesapla();
+                  çevreHesapla();
+                  showInfo(); (uzunlukları gösterin)
+         2-Dikdörtgen, Kare ve çember adında üç farklı class oluşturun
+   -OOP in özelliklerinden olan abstac class kullanımını yukarıdaki senaryoda
+    method ve variables ları kullanarak uygulayın ve anlatın
